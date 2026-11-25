@@ -1,23 +1,17 @@
-# 🐼 Módulo 04 - Introdução ao Pandas e Carregamento de Dados
+ # 🐼 Módulo 04 - Introdução ao Pandas e Carregamento de Dados
 
-Repositório dedicado aos estudos, anotações e exercícios práticos do **Módulo 04** do curso **Profissão: Cientista de Dados (EBAC)**, focado na manipulação, leitura e exploração inicial de dados utilizando a biblioteca **Pandas**.
+Repositório dedicado aos estudos e exercícios práticos do **Módulo 04** do curso **Profissão: Cientista de Dados (EBAC)**, focado na criação, estruturação e manipulação de dados utilizando **Pandas** e **NumPy**.
 
 ## 💡 Como elaborei este projeto
 
-Estruturei este repositório para documentar minha evolução prática com o ecossistema de dados em Python, dividindo o trabalho em etapas:
+Desenvolvi este projeto de forma prática em Jupyter Notebook, aplicando passo a passo os fundamentos das estruturas de dados do Pandas na resolução de problemas reais e simulados:
 
-1. **Estudo e Experimentação:** Explorei as principais estruturas de dados do Pandas (`Series` e `DataFrame`), testando comandos de leitura, filtragem e inspeção diretamente em células de Jupyter Notebook.
-2. **Carregamento e Inspeção de Bases:** Pratiquei a importação de arquivos externos (como `.csv` e `.xlsx`) e utilizei métodos essenciais de diagnóstico (`head()`, `info()`, `describe()`, `shape`, `dtypes`) para compreender a estrutura e a qualidade dos dados.
-3. **Manipulação e Resolução de Exercícios:** Apliquei os conceitos aprendidos para selecionar colunas, filtrar registros, tratar valores básicos e resolver as atividades propostas no módulo.
-
-## 📚 Principais Tópicos Abordados
-* Criação e manipulação de **Series** e **DataFrames**
-* Carregamento e exportação de dados (`pd.read_csv`, `pd.read_excel`, etc.)
-* Inspeção inicial de tabelas e tipos de dados
-* Indexação, fatiamento (*slicing*) e filtros condicionais
-* Operações básicas de resumo estatístico e contagem de valores
+1. **Manipulação de Séries Temporais (`pd.Series`):** Utilizei dados históricos de anomalia térmica global da NASA/GISS (de 1900 a 2020) para praticar diferentes formas de criação e indexação de séries — tanto a partir de listas com índices customizados quanto diretamente via dicionários Python.
+2. **Geração de Dados e Criação de DataFrames (`pd.DataFrame`):** Simulei uma matriz de dados utilizando distribuição normal com NumPy (`np.random.normal`) e a converti em um DataFrame estruturado, customizando os nomes das colunas (`x1`, `x2`, `x3`) e ajustando a indexação das linhas de 1 a 20 (`np.arange`).
+3. **Engenharia de Atributos e Operações Vetorizadas:** Criei novas colunas calculadas diretamente sobre o DataFrame, aplicando operações por linha (`mean(axis=1)`) e transformações matemáticas vetorizadas com NumPy (`np.log`) para gerar indicadores derivados.
 
 ## 🛠️ Tecnologias Utilizadas
 * **Python 3**
-* **Pandas**
+* **Pandas** (criação e manipulação de `Series` e `DataFrames`)
+* **NumPy** (geração de arrays aleatórios e cálculos matemáticos vetorizados)
 * **Jupyter Notebook** (Anaconda / Google Colab)
